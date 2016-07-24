@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="listItemMargin">5dp</dimen>
+    <dimen name="btnWidth">200px</dimen>
+
+    <color name="btnColor">	#242424</color>
+    <color name="btnTxtColor">#FFFFFF</color>
+    <dimen name="list_item_padding">5dp</dimen>
+
+</resources>

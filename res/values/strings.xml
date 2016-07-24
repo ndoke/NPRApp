@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Homework04</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="programBtnTxt">Programs</string>
+    <string name="topicBtnTxt">Topics</string>
+    <string name="favoriteBtnTxt">Favorites</string>
+    <string name="exitBtnTxt">Exit</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_stories">Stories Activity</string>
+    <string name="action_settings">Clear History</string>
+    <string name="title_activity_story">Story Activity</string>
+    <string name="dateAiredTxt">"Date Aired | "</string>
+    <string name="byTxt">by</string>
+
+</resources>

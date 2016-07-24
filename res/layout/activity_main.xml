@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/npr_logo1" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutBtnRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonPrograms"
+            android:layout_width="@dimen/btnWidth"
+            android:layout_height="wrap_content"
+            android:background="@color/btnColor"
+            android:onClick="itemBtnClicked"
+            android:text="@string/programBtnTxt"
+            android:textColor="@color/btnTxtColor" />
+
+        <Button
+            android:id="@+id/buttonTopics"
+            android:layout_width="@dimen/btnWidth"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/btnColor"
+            android:onClick="itemBtnClicked"
+            android:text="@string/topicBtnTxt"
+            android:textColor="@color/btnTxtColor" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutBtnRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RelativeLayoutBtnRow1"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonFavorites"
+            android:layout_width="@dimen/btnWidth"
+            android:layout_height="wrap_content"
+            android:background="@color/btnColor"
+            android:onClick="favoritesBtnClicked"
+            android:text="@string/favoriteBtnTxt"
+            android:textColor="@color/btnTxtColor" />
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="@dimen/btnWidth"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/btnColor"
+            android:onClick="exitBtnClicked"
+            android:text="@string/exitBtnTxt"
+            android:textColor="@color/btnTxtColor" />
+    </RelativeLayout>
+
+</RelativeLayout>
